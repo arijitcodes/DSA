@@ -1,4 +1,4 @@
-class LL {
+class LinkedList {
 
     constructor() {
         this.head = null;
@@ -75,23 +75,23 @@ class LL {
 }
 
 
-const list = new LL();
+const list = new LinkedList();
 list.addNewNode('One');
 list.addNewNode('Two');
 list.addNewNode(3);
-list.addNewNode('LOLOL');
+list.addNewNode('THREE');
 list.addNewNode(69);
-list.addNewNode('LOLOL');
+list.addNewNode('THREE');
 list.addNewNode(4);
-list.addNewNode('Suckit');
+list.addNewNode('TEST');
 list.addNewNodeAtBegining('F O U R');
 list.addNewNodeAtBegining('F O U R');
 
 console.log(list.viewLinkedList());
 
 list.deleteNode('F O U R');
-list.deleteNode('Suckit');
-list.deleteNode('LOLOL');
+list.deleteNode('TEST');
+list.deleteNode('THREE');
 list.deleteNode(69);
 
 console.log(list.viewLinkedList());

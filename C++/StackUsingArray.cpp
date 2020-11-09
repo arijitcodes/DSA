@@ -1,3 +1,8 @@
+/*
+    Program : Create Stack Data Structure using Array
+    Author : Arijit Banerjee (https://github.com/ArijitCodes)
+*/
+
 #include<iostream>
 #include<stdlib.h>
 
